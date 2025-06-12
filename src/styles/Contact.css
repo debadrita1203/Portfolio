@@ -1,0 +1,72 @@
+.page-c {
+    position: relative;
+    width: 93%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: var(--tc-ih);
+  }
+  
+  .contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact input,
+  .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  .contact button {
+    background-color: var(--th-ic);
+    color: var(--card-bg);
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    color: var(--tc-ih);
+    background-color: var(--accent-color);
+    opacity: 0.9;
+  }
+  
+  .address,
+  .phone-no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .address p,
+  .phone-no p {
+    line-height: 30px;
+  }
+  
+  footer .icon {
+    margin-bottom: 5px;
+    margin-right: 12px;
+  }

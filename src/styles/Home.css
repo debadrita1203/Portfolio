@@ -1,0 +1,55 @@
+.page-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--tc-ih);
+    animation: fadeIn 1.5s ease-in;
+    margin: 0 auto;
+  }
+  
+  .home {
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 20%;
+  }
+  
+  .home h1,
+  h2,
+  p {
+    cursor: default;
+  }
+  
+  .home h1,
+  h2 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+  }
+  
+  .home p {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  .home h1 {
+    font-size: 40px;
+  }
+  
+  .home h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

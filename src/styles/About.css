@@ -1,0 +1,144 @@
+.page-a {
+    position: relative;
+    width: 93%;
+    min-height: 100vh;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: var(--tc-ih);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+
+
+.about h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.intro-section {
+    margin: 5px 80px 30px 80px;
+    text-align: center;
+}
+
+.intro-section p {
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.skills-education-section {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 30px;
+    padding: 50px 100px;
+    border: var(--tc-ih) 1px solid;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+.skills h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.skill-item {
+    display: flex;
+    gap: 25px;
+}
+
+.skill-item .icon {
+    font-size: 33px;
+}
+
+.skill-item .label {
+    font-size: 23px;
+}
+
+.education {
+    text-align: center;
+}
+
+.education h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.education h4 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.education p {
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.info-card {
+    background-color: var(--tc-ih);
+    color: var(--accent-color);
+    padding: 20px 40px;
+    margin: 20px 0 40px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px var(--tc-ih);
+    width: 300px;
+    opacity: 0;
+    transform: translateX(0);
+    transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+.cards-container h3{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.cards-container ul {
+    margin-top: 10px;
+}
+
+.cards-container li {
+    font-size: 18px;
+}
+
+.slide-in-left {
+    transform: translateX(-50px);
+}
+
+.slide-in-right {
+    transform: translateX(50px);
+}
+
+.info-card.visible {
+    opacity: 1;
+    transform: translateX(0);
+}

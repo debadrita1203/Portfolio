@@ -1,0 +1,136 @@
+.page-w {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 90%;
+    min-height: 100vh;
+    color: var(--tc-ih);
+}
+
+
+.work{
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.work h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background-color: var(--th-ic);
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.project-card-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.project-card-container.left {
+    justify-content: flex-start;
+    padding-left: 80px;
+}
+
+.project-card-container.right {
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.timeline-marker {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: var(--th-ic);
+    border: 2px solid var(--accent-color);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 16px;
+    color: var(--accent-color);
+}
+
+.arrow.left {
+    transform: rotate(180deg);
+}
+
+.project-card {
+    background-color: var(--tc-ih);
+    color: var(--accent-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.tag-pill {
+    background-color: var(--card-bg);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.github-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
