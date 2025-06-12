@@ -27,10 +27,10 @@ const projects = [
     direction: 'left',
   },
   {
-    title: 'Portfolio',
-    description: 'My personal animated portfolio built in React.',
-    githubLink: 'https://github.com/yourusername/portfolio',
-    tags: ['React', 'Framer Motion', 'HTML'],
+    title: 'Online Learning Platform',
+    description: 'Responsive OLP for students offering courses, and plans',
+    githubLink: 'https://github.com/debadrita1203/Eduverse',
+    tags: ['React', 'Course.json', 'Stripe (demo)'],
     direction: 'right',
   },
 ];
